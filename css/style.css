@@ -1,0 +1,39 @@
+body {
+	font-family: "verdana"; 
+}
+
+.card{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #C3FDFA;
+}
+
+.card-title{
+	color: #4e8125;
+}
+
+.information > div, .identification{
+	display: flex;
+	justify-content: space-between;
+}
+
+.information{
+	font-size: 1em;
+	color: #4e8125;
+}
+
+.identification{
+	color: #4e8125;
+	margin-bottom: 1em;
+}
+
+.name{
+	color: #4e8125;
+	flex-basis: 50%;
+}
+
+.value{
+	flex-basis: 50%;
+	text-align: right;
+	color: #B742FE;
+}
